@@ -28,21 +28,25 @@
   <g font-family="Arial, sans-serif" fill="currentColor">
 
     <!-- UBC -->
-    <text x="245" y="410" font-size="20" font-weight="bold">UBC</text>
-    <text x="245" y="428" font-size="12">BSc</text>
+    <text x="245" y="410" font-size="20" font-weight="bold">University of British Columbia</text>
+    <text x="245" y="428" font-size="12">Bachelor of Science in Computer Science and Mathematics with Distinction </text>
+    <text x="245" y="445" font-size="12">Completed May 2025</text>
+    <text x="245" y="462" font-size="12">International Major Entrance Scholarship Recipient</text>
 
     <!-- UBC projects -->
     <a href="#arctic-plant-genomics">
       <text x="80" y="172" font-size="13" text-anchor="middle">Arctic plant genomics</text>
     </a>
     <a href="#fish-pop-genetics">
-      <text x="250" y="142" font-size="13" text-anchor="middle">Fish pop. genetics</text>
+      <text x="250" y="142" font-size="13" text-anchor="middle">Fish population genetics</text>
     </a>
 
     <!-- PhD -->
-    <text x="530" y="270" font-size="20" font-weight="bold">PhD</text>
-    <a href="#conscient-lab">
-      <text x="530" y="288" font-size="12">Conscient Lab</text>
+    <text x="530" y="270" font-size="20" font-weight="bold">PhD in Computer Science, McGill University</text>
+    <a href="#lab">
+      <text x="530" y="288" font-size="12">Blanchette Lab</text>
+      <text x="530" y="305" font-size="12">Focus in Bioinformatics</text>
+      <text x="530" y="322" font-size="12">Fast-tracked from masters in August 2026</text>
     </a>
     <a href="#evolutionary-models">
       <text x="510" y="82" font-size="13" text-anchor="middle">Evolutionary based models</text>
