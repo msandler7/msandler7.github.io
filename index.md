@@ -29,9 +29,9 @@
     <text x="445" y="335" font-size="14">Academic journey</text>
 
     <!-- UBC (left) -->
-    <text x="285" y="200" font-size="20" font-weight="bold">UBC</text>
-    <text x="285" y="218" font-size="12">BSc · Computer Science</text>
-    <text x="285" y="233" font-size="12">&amp; Mathematics</text>
+    <text x="300" y="180" font-size="20" font-weight="bold">UBC</text>
+    <text x="280" y="160" font-size="12">BSc · Computer Science</text>
+    <text x="285" y="150" font-size="12">&amp; Mathematics</text>
 
     <!-- McGill (right) -->
     <text x="575" y="200" font-size="20" font-weight="bold" text-anchor="end">McGill</text>
