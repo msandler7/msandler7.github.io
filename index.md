@@ -1,55 +1,46 @@
+<svg viewBox="0 0 860 480" xmlns="http://www.w3.org/2000/svg">
 
+  <!-- Trunk -->
+  <g fill="none" stroke="#718096" stroke-width="3">
+    <path d="M 430 440 L 430 330"/>
+    <path d="M 430 330 L 270 230"/>  <!-- to UBC -->
+    <path d="M 430 330 L 590 230"/>  <!-- to McGill -->
+  </g>
 
-<div class="tree-container">
-  <h2></h2>
-  <p></p>
+  <!-- Sub-branches (outward) -->
+  <g fill="none" stroke="#A0AEC0" stroke-width="2">
+    <path d="M 270 230 L 170 130"/>
+    <path d="M 270 230 L 110 215"/>
+    <path d="M 590 230 L 690 130"/>
+    <path d="M 590 230 L 750 215"/>
+  </g>
 
-  <svg viewBox="0 0 700 420"
-       role="img"
-       aria-label="Upward-growing academic tree">
+  <!-- Nodes -->
+  <g fill="#3569A8">
+    <circle cx="430" cy="330" r="6"/>
+    <circle cx="270" cy="230" r="6"/>
+    <circle cx="590" cy="230" r="6"/>
+  </g>
+  <circle cx="430" cy="440" r="6" fill="#4A5568"/>
 
-    <!-- Trunk -->
-    <g fill="none" stroke="#718096" stroke-width="3">
-      <path d="M 65 380 L 180 290"/>
-      <path d="M 180 290 L 310 155"/>
-      <path d="M 180 290 L 310 325"/>
-    </g>
+  <!-- Labels -->
+  <g font-family="Arial, sans-serif" fill="currentColor">
+    <text x="430" y="465" font-size="14" text-anchor="middle">Beginning</text>
+    <text x="445" y="335" font-size="14">Academic journey</text>
 
-    <!-- Future subbranches -->
-    <g fill="none" stroke="#A0AEC0" stroke-width="2">
-      <path d="M 310 155 L 420 85"/>
-      <path d="M 310 155 L 420 185"/>
-      <path d="M 310 325 L 420 270"/>
-      <path d="M 310 325 L 420 365"/>
-    </g>
+    <!-- UBC (left) -->
+    <text x="285" y="200" font-size="20" font-weight="bold">UBC</text>
+    <text x="285" y="218" font-size="12">BSc · Computer Science</text>
+    <text x="285" y="233" font-size="12">&amp; Mathematics</text>
 
-    <!-- Nodes -->
-    <g fill="#3569A8">
-      <circle cx="180" cy="290" r="6"/>
-      <circle cx="310" cy="155" r="6"/>
-      <circle cx="310" cy="325" r="6"/>
-    </g>
-    <circle cx="65" cy="380" r="6" fill="#4A5568"/>
+    <!-- McGill (right) -->
+    <text x="575" y="200" font-size="20" font-weight="bold" text-anchor="end">McGill</text>
+    <text x="575" y="218" font-size="12" text-anchor="end">PhD · Computer Science</text>
 
-    <!-- Labels -->
-    <g font-family="Arial, sans-serif" fill="currentColor">
-      <text x="45" y="405" font-size="14">Beginning</text>
-      <text x="190" y="278" font-size="14">Academic journey</text>
-
-      <text x="325" y="150" font-size="20" font-weight="bold">UBC</text>
-      <text x="325" y="170" font-size="12">
-        BSc · Computer Science &amp; Mathematics
-      </text>
-
-      <text x="325" y="320" font-size="20" font-weight="bold">McGill</text>
-      <text x="325" y="340" font-size="12">
-        PhD · Computer Science
-      </text>
-
-      <text x="435" y="80" font-size="13">Research projects</text>
-      <text x="435" y="180" font-size="13">Awards</text>
-      <text x="435" y="265" font-size="13">Genomics &amp; ML</text>
-      <text x="435" y="370" font-size="13">Publications</text>
-    </g>
-  </svg>
-</div>
+    <!-- Sub-branch labels -->
+    <text x="160" y="125" font-size="13" text-anchor="end">Research projects</text>
+    <text x="100" y="212" font-size="13" text-anchor="end">Awards</text>
+    <text x="700" y="125" font-size="13">Genomics &amp; ML</text>
+    <text x="760" y="212" font-size="13">Publications</text>
+  </g>
+</svg>
