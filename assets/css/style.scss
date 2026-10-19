@@ -1,0 +1,21 @@
+@import "{{ site.theme }}";
+
+.tree-container {
+  margin: 2rem 0;
+  padding: 1rem 0;
+}
+
+.tree-container svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: visible;
+}
+
+.tree-container h2 {
+  margin-bottom: 0.4rem;
+}
+
+.tree-container p {
+  color: #718096;
+}
