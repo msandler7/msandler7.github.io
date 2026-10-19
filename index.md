@@ -44,3 +44,15 @@
     <text x="760" y="212" font-size="13">Publications</text>
   </g>
 </svg>
+
+    <!-- McGill (right) -->
+    <text x="575" y="200" font-size="20" font-weight="bold" text-anchor="end">McGill</text>
+    <text x="575" y="218" font-size="12" text-anchor="end">PhD · Computer Science</text>
+
+    <!-- Sub-branch labels -->
+    <text x="160" y="125" font-size="13" text-anchor="end">Research projects</text>
+    <text x="100" y="212" font-size="13" text-anchor="end">Awards</text>
+    <text x="700" y="125" font-size="13">Genomics &amp; ML</text>
+    <text x="760" y="212" font-size="13">Publications</text>
+  </g>
+</svg>
