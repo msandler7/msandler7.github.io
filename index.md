@@ -36,7 +36,7 @@
       <text x="80" y="172" font-size="13" text-anchor="middle">Arctic plant genomics</text>
     </a>
     <a href="#fish-pop-genetics">
-      <text x="250" y="142" font-size="13" text-anchor="middle">Rainbow Trout Population genetics</text>
+      <text x="250" y="142" font-size="13" text-anchor="middle">Fish pop. genetics</text>
     </a>
 
     <!-- PhD -->
